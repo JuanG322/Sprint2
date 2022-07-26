@@ -1,0 +1,38 @@
+header{
+    background-color: #a69c88;
+}
+
+header div{
+    display: inline-block;
+}
+
+header .titulo p{
+    color: aliceblue;
+    margin-left: 100px;
+}
+
+header .lista{
+    margin-left: 50px;
+}
+
+header .lista ul{
+    display: inline-block;
+    
+}
+
+header .lista ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header .reserva button{
+    color: #7a7638;
+    margin-left: 200px;
+    background: white;
+    padding: 5px 15px 8px 15px;
+    border-radius: 30%;
+    border-color: #878564;
+    border-width: 3px;
+    border-style: solid;
+    
+}
