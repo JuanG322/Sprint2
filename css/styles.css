@@ -1,10 +1,12 @@
 :root{
-    --white: #f8f9fa;
+    --white: white;
     --lightGrey: #dcd9d8;
     --darkGrey:  #333333;
+    --aliceblue: #f0f8ff;
     --black: #000;
-    --vividYellow: #ffd900;
-
+    --goldYellow: #7a7638;
+    --goldDark: #878564;
+    --glidden: #a69c88;
 }
 *{
     padding: 0;

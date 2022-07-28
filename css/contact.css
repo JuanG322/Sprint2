@@ -1,15 +1,18 @@
 :root {
-  --white: #f8f9fa;
+  --white: white;
   --lightGrey: #dcd9d8;
   --darkGrey: #333333;
+  --aliceblue: #f0f8ff;
   --black: #000;
-  --vividYellow: #ffd900;
-  --lightGreen: #97d848;
+  --goldYellow: #7a7638;
+  --goldDark: #878564;
+  --glidden: #a69c88;
 }
 
 * {
   padding: 0;
   margin: 0;
+  background: ;
 }
 
 @font-face {
@@ -27,13 +30,13 @@
 .callContainer {
   text-align: center;
 }
-.socialContainer{
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
+.socialContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
 }
 .socialContainer img {
-    padding: 12px;
+  padding: 12px;
 }
 
 .contact_form {
@@ -43,7 +46,7 @@
   border-radius: 10px;
   padding-top: 16px;
   padding-bottom: 20px;
-  background-color: var(--white);
+  background-color: var(--goldDark);
   padding-left: 30px;
 }
 
@@ -86,8 +89,8 @@ button {
   margin-bottom: 20px;
   margin-top: 10px;
   text-transform: uppercase;
-  background-color: var(--darkGrey);
-  border-color: var(--black);
+  background-color: var(--black);
+  border-color: var(--darkGrey);
   border-style: solid;
   border-radius: 10px;
   width: 420px;
@@ -104,20 +107,20 @@ span {
 
 .aviso {
   font-size: 12px;
-  color: var(--black);
+  color: var(--darkGrey);
 }
 
 h1 {
   font-size: 40px;
   text-align: letf;
   padding-bottom: 20px;
-  color: var(--darkGrey);
+  color: var(--black);
 }
 
 h3 {
   font-size: 16px;
   padding-bottom: 32px;
-  color: var(--black);
+  color: var(--darkGrey);
 }
 
 p {
