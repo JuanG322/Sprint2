@@ -1,0 +1,146 @@
+:root{
+    --white: #f8f9fa;
+    --lightGrey: #dcd9d8;
+    --darkGrey:  #333333;
+    --black: #000;
+    --vividYellow: #ffd900;
+    --lightGreen: #97d848;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'iconos';
+    src:  url('../fonts/icomoon/icomoon.eot?zfpdj5');
+    src:  url('../fonts/icomoon/icomoon.eot?zfpdj5#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon/icomoon.ttf?zfpdj5') format('truetype'),
+      url('../fonts/icomoon/icomoon.woff?zfpdj5') format('woff'),
+      url('../fonts/icomoon/icomoon.svg?zfpdj5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.contact_form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: var(--white);
+    padding-left: 30px;
+}
+
+input {
+    background-color: var(--white);
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--darkGrey);
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+textarea {
+    background-color: var(--white);
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--darkGrey);
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+label {
+    display: block;
+    float: center;
+}
+
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: var(--darkGrey);
+    border-color: var(--black);
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+
+button p {
+    color: var(--lightGrey);
+}
+
+
+span {
+    color: var(--black);
+}
+
+
+.aviso {
+    font-size: 13px;
+    color: var(--black);
+}
+
+
+h1 {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: var(--darkGrey);
+}
+
+
+h3 {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color:var(--black);
+}
+
+
+p {
+    font-size: 14px;
+    color: var(--black);
+}
+
+
+::-webkit-input-placeholder {
+    color: var(--lightGrey);
+}
+
+
+::-webkit-textarea-placeholder {
+    color: var(--lightGrey);
+}
+
+
+.formulario input:focus {
+    outline: 0;
+    border: 1px solid var(--lightGreen);
+}
+
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid var(--lightGreen);
+}
