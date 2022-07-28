@@ -71,43 +71,40 @@ header .reservar button a{
     color: #7a7638;
 }
 
-section{
+section .articulo1{
+    margin-top: 40px;
     background-color: #abc3a9;
 }
 
-section article{
-    margin-top: 40px;
-}
-
-section article .imagenes, section article .contenido{
+section .articulo1 .imagenes, section article .contenido{
     display: inline-block;
 }
 
-section article .contenido{
+section .articulo1 .contenido{
     vertical-align: top;
     margin-top: 150px;
     margin-left: 10%;
 }
 
-section article .contenido .texto{
+section .articulo1 .contenido .texto{
     color: aliceblue;
 }
 
-section article .contenido .texto h4{
+section .articulo1 .contenido .texto h4{
     font-size: x-large;
     text-transform: uppercase
 }
 
-section article .contenido .texto p{
+section .articulo1 .contenido .texto p{
     font-size: large;
 }
 
-section article .contenido .boton{
+section .articulo1 .contenido .boton{
     margin-left: 30%;
     margin-top: 50px;
 }
 
-section article .contenido .boton button{
+section .articulo1 .contenido .boton button{
     
     padding: 15px 35px 15px 35px;
     border-color: #878564;
@@ -116,39 +113,101 @@ section article .contenido .boton button{
     background-color: #878564;
 }
 
-section article .contenido .boton button a{
+section .articulo1 .contenido .boton button a{
     color: white;
     text-decoration: none;
 }
-section article .contenido .iconos{
+section .articulo1 .contenido .iconos{
     margin-left: 30px;
 }
 
-section article .contenido .iconos ul li{
+section .articulo1 .contenido .iconos ul li{
     display: inline-block;
     margin-top: 200px;
 }
 
-section article .contenido .iconos ul li a{
+section .articulo1 .contenido .iconos ul li a{
     text-decoration: none;
     color: aliceblue;
     margin-right: 20px;
 }
 
-section article .contenido .iconos ul .face::before{
+section .articulo1 .contenido .iconos ul .face::before{
     font-family: "iconos";
     content: "\ea91";
     margin-right: 5px;
 }
 
-section article .contenido .iconos ul .insta::before{
+section .articulo1 .contenido .iconos ul .insta::before{
     font-family: "iconos";
     content: "\ea92";
     margin-right: 5px;
 }
 
-section article .contenido .iconos ul .twitter::before{
+section .articulo1 .contenido .iconos ul .twitter::before{
     font-family: "iconos";
     content: "\ea96";
     margin-right: 5px;
+}
+
+section .articulo2{
+    background-color: #a59b87;
+}
+
+section .articulo2 .texto2{
+    text-align: center;
+
+    color: white;
+}
+
+section .articulo2 .texto2{
+    padding-top: 100px;
+}
+
+section .articulo2 .texto2 .bienvenida{
+    font-size: x-large;
+}
+
+section .articulo2 .texto2 .descripcion{
+    margin: 20px 300px 20px 300px;
+}
+
+section .articulo2 .imagenes2{
+    padding-top: 50px;
+    padding-bottom: 200px;
+    margin-left: 80px;
+    display: inline-block;  
+}
+
+footer{
+    background-color: whitesmoke;
+}
+
+footer .lista-footer {
+    padding-top: 50px;
+    text-align: center;
+}
+
+footer .lista-footer ul li{
+    display: inline-block;
+    border-right: 2px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer .lista-footer ul li:last-child{
+    border-right: 0px;
+}
+
+footer .texto-footer{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer .texto-footer p{
+    font-size: 14px;
+    width: 67%;
+    margin-left: 18%;
+    margin-right: auto;
 }
