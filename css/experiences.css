@@ -26,6 +26,7 @@
   font-display: block;
 }
 body{
+  margin-top: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,6 +39,7 @@ body{
   width: 320px;
   height: 360px;
   padding: 20px;
+  margin: 24px;
 }
 .card .face {
   position: absolute;
