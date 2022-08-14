@@ -7,6 +7,7 @@
   --goldYellow: #7a7638;
   --goldDark: #878564;
   --glidden: #a69c88;
+  --whitesmoke: whiteSmoke;
 }
 
 * {
@@ -26,6 +27,61 @@
   font-weight: normal;
   font-style: normal;
   font-display: block;
+}
+header{
+  background-color: var(--glidden);
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+header div{
+  display: inline-block;
+}
+
+header .titulo img{
+  margin-left: 100px;
+}
+
+
+header .lista{
+  margin-left: 50px;
+  vertical-align: top;
+  margin-top: 70px;
+}
+
+header .lista ul{
+  display: inline-block;
+}
+
+header .lista ul li{
+  display: inline-block;
+}
+
+header .lista ul li a{
+  color: var(--aliceblue);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header .reservar{
+  vertical-align: top;
+  margin-left: 150px;
+  margin-top: 65px;
+}
+
+header .reservar button{
+  padding: 5px 15px 8px 15px;
+  border-radius: 30%;
+  border-color: var(--glidden);
+  border-width: 3px;
+  border-style: solid;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+header .reservar button a{
+  text-decoration: none;
+  color: var(--goldYellow);
 }
 .callContainer {
   text-align: center;
@@ -144,4 +200,36 @@ p {
 .formulario textarea:focus {
   outline: 0;
   border: 1px solid var(--lightGreen);
+}
+footer{
+  background-color:whitesmoke;
+}
+
+footer .lista-footer {
+  padding-top: 50px;
+  text-align: center;
+}
+
+footer .lista-footer ul li{
+  display: inline-block;
+  border-right: 2px solid;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer .lista-footer ul li:last-child{
+  border-right: 0px;
+}
+
+footer .texto-footer{
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer .texto-footer p{
+  font-size: 14px;
+  width: 67%;
+  margin-left: 18%;
+  margin-right: auto;
 }
